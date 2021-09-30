@@ -4,10 +4,12 @@ ul {
         padding: 0;
         overflow: hidden;
         background-color: transparent;
+        justify-content: space-evenly;
       }
 
 li {
         float: left;
+        
       }
       
       li a {
