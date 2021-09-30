@@ -1,8 +1,16 @@
-nav{
-    nav {
+*{
+        background-color: gray;
+}
+nav {
         max-width: 960px;
         margin: 0 auto;
         padding: 10px 0;
         margin-right: 0%;
-     }
+        display: inline;
+        
+        
 }
+nav>p>a>a:hover {
+        background: gray;
+        color: black
+        }
