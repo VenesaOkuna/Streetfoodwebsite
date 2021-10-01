@@ -18,9 +18,38 @@ li {
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
+        font-family: poppins;
+        
       }
       
-      /* Change the link color to #111 (black) on hover */
+      
       li a:hover {
-        background-color: cyan;
+        background-color: #6CB840;
+      }
+      .orange{
+              color: #EAAB1B;
+
+      }
+      #text1{
+              display: block;
+      }
+      .green{
+              color: #6CB840;
+      }
+      button{
+              background-color: #6CB840;
+              color: white;
+              border-radius: 10px;
+              border: #6CB840;
+              padding: 10px;
+              width: 120px;
+      }
+      .about{
+              color: #EAAB1B;
+      }
+      .menugreen{
+              color: #6CB840;
+      }
+      .happyhourgreen{
+              color: #6CB840;
       }
