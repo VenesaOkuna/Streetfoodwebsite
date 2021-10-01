@@ -1,3 +1,4 @@
+
 ul {
         list-style-type: none;
         margin: 0;
@@ -43,6 +44,9 @@ li {
               border: #6CB840;
               padding: 10px;
               width: 120px;
+              margin: 5px;
+              position: relative;
+              left: 32px;
       }
       .about{
               color: #EAAB1B;
@@ -52,4 +56,25 @@ li {
       }
       .happyhourgreen{
               color: #6CB840;
+      }
+      .paragraph1{
+        width: 300px;
+        padding: 5px;
+        margin: 0px;
+        text-size: large;
+        margin-left: 40px;
+      }
+      .heading2{
+        width: 300px;
+        padding: 5px;
+        margin: 0px;
+        text-size: large;
+        margin-left: 40px;
+      }
+      .heading1{
+        width: 300px;
+        padding: 5px;
+        margin: 0px;   
+        text-size: 200%; 
+        margin-left: 40px;
       }
