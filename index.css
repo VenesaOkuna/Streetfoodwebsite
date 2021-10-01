@@ -4,6 +4,7 @@
         margin: 5px;
         margin-left: 25px;
         justify-content: space-evenly;
+        
 }
 .nav2{
         width: 400px;
@@ -40,7 +41,7 @@ li {
       
       
       li a:hover {
-        background-color: #6CB840;
+        background-color: white;
       }
       .orange{
               color: #EAAB1B;
@@ -92,4 +93,19 @@ li {
         margin: 0px;   
         text-size: 200%; 
         margin-left: 45px;
+      }
+      .circle1 {
+        height: 500px;
+        width: 1000px;
+        background-color: #649549;
+        border-radius: 50%;
+        margin-left: 1000px;
+      }
+      .circle2 {
+        height: 100px;
+        width: 100px;
+        background-color: #485e3d;
+        border-radius: 50%;
+        border-style: ;
+        margin-left: 1000px;
       }
