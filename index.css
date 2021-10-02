@@ -1,13 +1,22 @@
+*{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+        overflow-x: hidden;
+        font-family: poppins;
+
+}
 .nav1{
-        width: 400px;
+        width: 700px;
         padding: 70px;
         margin: 5px;
         margin-left: 25px;
         justify-content: space-evenly;
+ 
         
 }
 .nav2{
-        width: 400px;
+        width: 600px;
         padding: 70px;
         margin: 5px;
         margin-right: 25px;
@@ -37,6 +46,13 @@ li {
         text-decoration: none;
         font-family: poppins;
         
+      }
+      .special{
+              color: #6CB840;
+              margin: 2px;
+              padding: 5px;
+              font-size: xx-large;
+
       }
       
       
@@ -84,28 +100,88 @@ li {
         width: 300px;
         padding: 5px;
         margin: 0px;
-        text-size: large;
+        font-size: large;
         margin-left: 45px;
       }
       .heading1{
         width: 300px;
         padding: 5px;
         margin: 0px;   
-        text-size: 200%; 
+        font-size: 200%; 
         margin-left: 45px;
       }
-      .circle1 {
-        height: 500px;
-        width: 1000px;
-        background-color: #649549;
-        border-radius: 50%;
-        margin-left: 1000px;
-      }
-      .circle2 {
-        height: 100px;
-        width: 100px;
-        background-color: #485e3d;
-        border-radius: 50%;
-        border-style: ;
-        margin-left: 1000px;
-      }
+  #drink{
+        padding: 0px;
+        margin: 0px;     
+        float: right ;
+        
+        
+  }
+  .happyhourgreen{
+        width: 50px;
+        padding: 0px;
+        margin: 0px;  
+        align-items: center;
+  }
+  .pizz{
+        margin: 2px;
+        padding: 5px;
+        font-size: x-large;
+  }
+  .hot{
+        margin: 0px;
+        width: 400px;
+        padding: 0px;    
+        font-size: medium;
+        text-align: center;
+  }
+
+  .us{
+          color: #6CB840;
+  }
+  .contact{
+         text-align: center;font-size: xx-large;
+         margin: 0;
+         padding: 0;
+         margin-bottom: 40px;
+         
+  }
+.hotdeals{
+        text-align: center;
+}
+.contacttext{
+        margin: 0px;
+        width: 370px;
+        padding: 0px;    
+        text-align: center;font-size:large;
+        margin-left: 470px;
+        
+}
+input{
+        width: 550px;
+        height: 40px;
+        margin-left: 377px;
+        margin-top: 50px;
+        border: 0px solid #FEF8DB;
+        border-radius: 20px;
+        position: absolute;
+}
+label{
+        margin-left: 390px;
+        position: fixed;
+        bottom: 363px;
+        font-family: poppins;
+
+}
+.send{
+        background-color: #6CB840;
+        color: white;
+        border-radius: 20px;
+        border: #6CB840;
+        margin-left: 390px;
+        position: fixed;
+        bottom: 285px;
+        left: 200px;
+        font-family: poppins;
+        font-size: medium;
+}
