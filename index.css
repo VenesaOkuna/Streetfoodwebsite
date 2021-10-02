@@ -4,6 +4,7 @@
         box-sizing: border-box;
         overflow-x: hidden;
         font-family: poppins;
+        
 
 }
 .nav1{
@@ -12,6 +13,8 @@
         margin: 5px;
         margin-left: 25px;
         justify-content: space-evenly;
+        position: fixed;
+        left: 0px;
         
  
         
@@ -22,6 +25,8 @@
         margin: 5px;
         margin-right: 25px;
         justify-content: space-evenly;
+        position: fixed;
+        right: 0px;
 
 }
 ul {
@@ -86,7 +91,7 @@ li {
               font-size: 18px;
               position: fixed;
               left: 40px;
-              bottom: 45px;
+              bottom: 100px;
       }
       .about{
               color: #EAAB1B;
@@ -102,7 +107,7 @@ li {
         padding: 5px;
         margin: 0px;
         font-size: large;
-        margin-left: 45px;
+        margin-left: 50px;
         position: fixed;
         top: 320px;
 
@@ -114,7 +119,7 @@ li {
         font-size: medium; 
         margin-left: 45px;
         top: 260px;
-        font-size: 43px;
+        font-size: 38px;
         font-family:poppins;
         font-weight: 400;
         position: fixed;
@@ -130,6 +135,7 @@ li {
         font-weight: 500;
         position: fixed;
         font-stretch: 7px;
+        top: 200px;
       }
   #drink{
         position: fixed;
@@ -259,7 +265,7 @@ label{
 .eatingtg{
         position: fixed;
         left: 100px;
-        bottom: 100px;
+        bottom: 140px;
         
 }
 .logo{
@@ -267,4 +273,53 @@ label{
         top: 50px;
         right: 590px;
 
+}
+.circle{
+        position: fixed;
+        height: 1000px;
+        width: 1000px;
+        background-color: #C9ECB5;
+        border-radius: 50%;
+        left: 450px;
+        bottom: 120px;
+}
+.circle2 {
+        position: fixed;
+         height: 400px;
+         width: 400px;
+         background-color: transparent;
+         border-radius: 50%;
+         left: 697px;
+         bottom: -15px;
+         border: 1px dashed #6CB840;
+        }
+.image1{
+        position:fixed;
+        left: 650px;
+        bottom: 150px;
+}
+.image2{
+        position:fixed;
+        left: 700px;
+        bottom: 270px;
+}
+.image3{
+        position:fixed;
+        left: 840px;
+        bottom: 340px;
+}
+.image4{
+        position:fixed;
+        left: 960px;
+        bottom: 250px;
+}
+.image5{
+        position:fixed;
+        left: 857px;
+        bottom: 80px;
+}
+.image6{
+        position:fixed;
+        left: 1050px;
+        bottom: 145px;
 }
