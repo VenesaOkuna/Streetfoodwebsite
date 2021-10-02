@@ -218,3 +218,31 @@ label{
         left: 150px;
         bottom: 0px;
 }
+.about{
+        position: fixed;
+        text-align: right;
+        right: 300px;
+        top: 150px;
+        font-family: poppins;
+        font-size: 50px;
+        font-weight: 200;
+        font-stretch: 60px;
+}
+.abouttext{
+        position: fixed;
+        right: 241px;
+        top: 225px;
+        font-size: x-large;
+        font-weight: lighter;
+        text-align: center;
+        margin: 0px;
+        width: 370px;
+        padding: 0px; 
+        bottom: 60px;      
+}
+.eatingtg{
+        position: fixed;
+        left: 100px;
+        bottom: 100px;
+        
+}
