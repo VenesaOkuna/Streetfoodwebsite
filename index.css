@@ -48,10 +48,15 @@ li {
         
       }
       .special{
-              color: #6CB840;
-              margin: 2px;
-              padding: 5px;
-              font-size: xx-large;
+        color: #6CB840;      
+        position: fixed;
+        right: 110px;
+        top: 200px;
+        font-size: 43px;
+        font-family:poppins;
+        font-weight: 300;
+
+
 
       }
       
@@ -111,10 +116,12 @@ li {
         margin-left: 45px;
       }
   #drink{
+        position: fixed;
+        float: left;
+        width: 370px;
         padding: 0px;
-        margin: 0px;     
-        float: right ;
-        
+        margin:0px;
+
         
   }
   .happyhourgreen{
@@ -124,16 +131,29 @@ li {
         align-items: center;
   }
   .pizz{
-        margin: 2px;
-        padding: 5px;
-        font-size: x-large;
+        color: rgb(27, 27, 27);      
+        position: fixed;
+        right: 420px;
+        top: 270px;
+        font-size: 30px;
+        font-weight: lighter;
   }
   .hot{
+        position: fixed;
+        right: 200px;
+        top: 375px;
+        font-size: x-large;
+        font-weight: lighter;
         margin: 0px;
-        width: 400px;
-        padding: 0px;    
-        font-size: medium;
-        text-align: center;
+        width: 370px;
+        padding: 0px; 
+  }
+  .fries{
+          margin: 4px;
+          font: weight 100px;
+          font-family: Arial, Helvetica, sans-serif;
+          position: fixed;
+          font-family: 1px;
   }
 
   .us{
