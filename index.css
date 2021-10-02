@@ -10,7 +10,7 @@
 .nav1{
         width: 700px;
         padding: 70px;
-        margin: 5px;
+        margin: 0px;
         margin-left: 25px;
         justify-content: space-evenly;
         position: fixed;
@@ -22,7 +22,7 @@
 .nav2{
         width: 600px;
         padding: 70px;
-        margin: 5px;
+        margin: 0px;
         margin-right: 25px;
         justify-content: space-evenly;
         position: fixed;
@@ -270,7 +270,7 @@ label{
 }
 .logo{
         position: fixed;
-        top: 50px;
+        top: 40px;
         right: 590px;
 
 }
@@ -322,4 +322,70 @@ label{
         position:fixed;
         left: 1050px;
         bottom: 145px;
+}
+.menu{
+        position: fixed;
+        text-align: center;
+        right: 600px;
+}
+.rectangle1{
+position: fixed;
+}
+.rectangle2{
+position: fixed;
+}
+.rectangle3{
+position: fixed;
+}
+.rectangle4{
+position: fixed;
+}
+.rectangle5{
+position: fixed;
+}
+.rectangle6{
+position: fixed;
+}
+.burger1{
+position: fixed;
+top: 150px;
+left: 0px;
+width: 200px;
+height: 180px;
+}
+.burger2{
+position: fixed;
+top: 380px;
+left: 0px;
+width: 200px;
+height: 180px;
+}
+.burger3{
+position: fixed;
+top: 380px;
+left:440px;
+width: 200px;
+height: 180px;
+
+}
+.burger4{
+position: fixed;
+right: 250px;
+top: 150px;
+width: 200px;
+height: 180px;
+}
+.burger5{
+position: fixed;
+top: 380px;
+right: 250px;
+width: 200px;
+height: 180px;
+}
+.burger6{
+position: fixed;
+top: 150px;
+left: 420px;
+width: 200px;
+height: 180px;
 }
