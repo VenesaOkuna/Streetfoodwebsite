@@ -12,6 +12,7 @@
         margin: 5px;
         margin-left: 25px;
         justify-content: space-evenly;
+        
  
         
 }
@@ -77,13 +78,15 @@ li {
       button{
               background-color: #6CB840;
               color: white;
-              border-radius: 10px;
+              border-radius: 30px;
               border: #6CB840;
-              padding: 10px;
-              width: 120px;
+              padding: 15px;
+              width: 128px;
               margin: 5px;
-              position: relative;
+              font-size: 18px;
+              position: fixed;
               left: 40px;
+              bottom: 45px;
       }
       .about{
               color: #EAAB1B;
@@ -98,15 +101,23 @@ li {
         width: 300px;
         padding: 5px;
         margin: 0px;
-        text-size: large;
-        margin-left: 45px;
-      }
-      .heading2{
-        width: 300px;
-        padding: 5px;
-        margin: 0px;
         font-size: large;
         margin-left: 45px;
+        position: fixed;
+        top: 320px;
+
+      }
+      .heading2{
+        width: 480px;
+        padding: 5px;
+        margin: 0px;   
+        font-size: medium; 
+        margin-left: 45px;
+        top: 260px;
+        font-size: 43px;
+        font-family:poppins;
+        font-weight: 400;
+        position: fixed;
       }
       .heading1{
         width: 300px;
@@ -114,6 +125,11 @@ li {
         margin: 0px;   
         font-size: 200%; 
         margin-left: 45px;
+        font-size: 52px;
+        font-family:poppins;
+        font-weight: 500;
+        position: fixed;
+        font-stretch: 7px;
       }
   #drink{
         position: fixed;
@@ -245,4 +261,10 @@ label{
         left: 100px;
         bottom: 100px;
         
+}
+.logo{
+        position: fixed;
+        top: 50px;
+        right: 590px;
+
 }
