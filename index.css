@@ -4,6 +4,7 @@
         box-sizing: border-box;
         overflow-x: hidden;
         font-family: poppins;
+        @media screenn and (min-width;)
         
 
 }
@@ -292,6 +293,7 @@ label{
          left: 697px;
          bottom: -15px;
          border: 1px dashed #6CB840;
+         overflow: hidden;
         }
 .image1{
         position:fixed;
