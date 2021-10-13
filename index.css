@@ -1,14 +1,4 @@
-.home{
-        background-color: rgba(209,208,208,0.8);
-    }
-    li{
-        display: inline;
-    }
-    li a{
-        text-decoration: none;
-        padding-left: 60px;
-        color: black;
-    }
+
     
       
     #mid{
@@ -31,6 +21,18 @@
         margin-top: 50px;
         display: flex;
         
+}
+
+.home{
+    background-color: rgba(209,208,208,0.8);
+}
+li{
+    display: inline;
+}
+li a{
+    text-decoration: none;
+    padding-left: 60px;
+    color: black;
 }
       
       .circle{
@@ -82,35 +84,7 @@
         margin-left: 50px;
     
     }
-    .aboutpage{
-                
-                    
-        display: flex;
-        flex-direction: row;
-        
-        
-    }
-    #email{width:250px;
-        padding: 8px 20px;
-        border-radius: 16px;
-        margin: 20px;
-        border: none;
-        background-color: white;
-        text-align: left;
-    font-size: 10px;
-    }
-    .contactus{
-        display: flex;
-        flex-direction: column;
-        background-color: rgba(255,215,124,0.3);
-        align-items: center;
-        margin-top: 0.1;
-        margin-left: 100px;
-        margin-right: 100px;
-        width: 1250px;
-        
-        box-sizing: border-box;
-    }
+    
     h4{
         text-align: center;
     }
@@ -157,6 +131,37 @@
         margin-bottom: 1px;
     
     }
+
+    .aboutpage{
+                
+                    
+        display: flex;
+        flex-direction: row;
+        
+        
+    }
+    #email{width:250px;
+        padding: 8px 20px;
+        border-radius: 16px;
+        margin: 20px;
+        border: none;
+        background-color: white;
+        text-align: left;
+    font-size: 10px;
+    }
+    .contactus{
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(255,215,124,0.3);
+        align-items: center;
+        margin-top: 0.1;
+        margin-left: 100px;
+        margin-right: 100px;
+        width: 1250px;
+        
+        box-sizing: border-box;
+    }
+
     .content , .down{
         display: flex;
         flex-direction: row;
